@@ -1,0 +1,30 @@
+.dispaly{
+    background-color: red;
+    height: 7vw;
+    width: calc(calc(5vw * 4) + calc(2 * 20px));
+    margin-bottom: 20px;
+    padding-right: 20px;
+    font-size: 4em;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: right;
+}
+@media screen and (max-width: 1200px) {
+    .dispaly{
+        background-color: red;
+        height: 20vw;
+        font-size: 3em;
+        width: calc(calc(15vw * 4) + calc(3 * 20px) - 20px);
+    }
+}
+@media screen and (max-width: 400px) {
+    .dispaly{
+        width: calc(calc(17vw * 4) + calc(3 * 20px) - 20px);
+    }
+}
+@media screen and (min-height: 1000px) {
+    .dispaly{
+        font-size: 5em;
+    }
+}

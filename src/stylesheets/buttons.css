@@ -1,0 +1,54 @@
+button{
+    width: 5vw;
+    height: 5vw;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 3em;
+    font-weight: 700;
+    transition: .5s;
+}
+button:hover{
+    opacity: .7;
+}
+.big{
+    width: calc(calc(5vw * 2) + 20px);
+}
+.blue{
+    background-color: #4e3dd0;
+}
+.red{
+    background-color: #f43c1f;
+}
+.yellow{
+    background-color: #ffdc02;
+}
+.conatiner-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row{
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+   button{
+        width:  15vw;
+        height:  15vw;
+        font-size: 2em;
+   }
+   .big{
+        width: calc(calc(15vw * 2) + 20px);
+    }
+}
+@media screen and (max-width: 400px) {
+    button{
+        width:  17vw;
+        height:  17vw;
+        font-size: 2em;
+   }
+   .big{
+        width: calc(calc(17vw * 2) + 20px);
+    }    
+}
